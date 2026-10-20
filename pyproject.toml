@@ -1,0 +1,61 @@
+[project]
+name = "halprobe"
+version = "0.1.0"
+description = "Linear probes on pre-generation hidden states for hallucination detection in small LLMs"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "torch==2.9.1+rocm7.14.0a20260612; sys_platform == 'win32'",
+    "rocm[libraries]==7.14.0a20260612; sys_platform == 'win32'",
+    "rocm-sdk-core==7.14.0a20260612; sys_platform == 'win32'",
+    "rocm-sdk-libraries-gfx103x-all==7.14.0a20260612; sys_platform == 'win32'",
+    "torch==2.9.1+cpu; sys_platform == 'linux'",
+    "transformers>=4.57,<4.58",
+    "tokenizers>=0.22,<0.23",
+    "huggingface-hub>=0.34,<1.0",
+    "scikit-learn>=1.5",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "pyyaml>=6.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/halprobe"]
+
+[tool.uv]
+environments = ["sys_platform == 'win32'", "sys_platform == 'linux'"]
+# The TheRock Linux torch wheel requires triton, the Windows wheel does not, and uv
+# reads one wheel's metadata for all platforms. Neither of our platforms needs it
+# (Linux uses the CPU wheel), so the requirement is disabled.
+override-dependencies = ["triton; sys_platform == 'never'"]
+
+[tool.uv.sources]
+torch = [
+    { index = "therock-gfx103x", marker = "sys_platform == 'win32'" },
+    { index = "pytorch-cpu", marker = "sys_platform == 'linux'" },
+]
+rocm = { index = "therock-gfx103x" }
+rocm-sdk-core = { index = "therock-gfx103x" }
+rocm-sdk-libraries-gfx103x-all = { index = "therock-gfx103x" }
+
+[[tool.uv.index]]
+name = "therock-gfx103x"
+url = "https://rocm.nightlies.amd.com/v2-staging/gfx103X-all/"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: requires the AMD GPU (run with: pytest -m gpu)"]
+addopts = "-m 'not gpu'"

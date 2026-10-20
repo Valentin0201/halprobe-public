@@ -1,0 +1,101 @@
+﻿id,split,relation,question,answer,gold_answers,auto_label,reason,manual_label
+4198902,train,occupation,What is Geeling Ng's occupation?,martial artist,restaurateur | gastronomist | restauranteur,incorrect,,incorrect
+1976296,train,occupation,What is Veronica Franco's occupation?,poet,poet | poetess | bard,correct,,correct
+1901465,train,occupation,What is Ivo Perilli's occupation?,chef,screenwriter | scenarist | writer | screen writer | script writer | scriptwriter,incorrect,,incorrect
+650179,train,occupation,What is Gaziza Zhubanova's occupation?,ballerina,composer,incorrect,,incorrect
+3061785,val,occupation,What is Alex Reid's occupation?,mixed martial artist,actor | actress | actors | actresses,incorrect,,ambiguous
+2499057,train,occupation,What is Marie-France Mignal's occupation?,actress,actor | actress | actors | actresses,correct,,correct
+1990787,train,occupation,What is Lindsay Ellingson's occupation?,model,model | fashion model | sitter | poser,correct,,correct
+5022237,train,occupation,What is Louis O'Dea's occupation?,newscaster,politician | political leader | political figure | polit. | pol,incorrect,,incorrect
+3089923,train,place of birth,In what city was Maria Wetterstrand born?,Stockholm,Eskilstuna,incorrect,,incorrect
+2749201,train,place of birth,In what city was Gerard Reve born?,Amsterdam,"Amsterdam | Mokum | Amsterdam, NL | Amsterdam, Netherlands | A'dam",correct,,correct
+2943074,train,place of birth,In what city was Viator of Lyons born?,Lyons,Lyon | Lyons | Commune-Affranchie,correct,,correct
+3102612,test,place of birth,In what city was Martin Behaim born?,Nuremberg,Nuremberg | Nürnberg | Kreisfreie Stadt Nürnberg | Nüremberg,correct,,correct
+5905586,test,genre,What genre is Tharg the Mighty?,comics,science fiction | SF | scifi | sci Fi | sci-Fi | science-fiction | sci fi | sciencefiction,incorrect,,ambiguous
+228067,train,genre,What genre is Avatar: The Last Airbender?,fantasy,animated series | cartoon series | animated TV series | animated television series | animated television show | animated TV show | animation series | animation television series | animation TV series | animation show | animation television show | animation TV show,incorrect,,correct
+5949012,val,genre,What genre is The Prince Who Was a Thief?,fantasy,swashbuckler film | swashbuckler movie | cloak-and-dagger movie,incorrect,,incorrect
+988268,val,genre,What genre is Uno?,card game,alternative rock | alternative music | alt-rock | alternative | alt rock | pop/rock | Alternative Rock,incorrect,,ambiguous
+2946598,train,genre,What genre is Will?,drama,electronic music | electrosonic,incorrect,,ambiguous
+5815875,train,genre,What genre is The Fallen?,young adult,third-person shooter | TPS,incorrect,,ambiguous
+5315051,train,father,Who is the father of Now What?,Rick Astley,Chance Play,incorrect,,incorrect
+1378895,train,country,In what country is Flat?,Norway,United States of America | the United States of America | America | U.S.A. | USA | U.S. | US | the US | the USA | US of A | the United States | U. S. A. | U. S. | the States | the U.S. | 'Merica | U.S | United States | 'Murica,incorrect,,incorrect
+5556707,train,country,In what country is Reid Temple A.M.E. Church?,United States,United States of America | the United States of America | America | U.S.A. | USA | U.S. | US | the US | the USA | US of A | the United States | U. S. A. | U. S. | the States | the U.S. | 'Merica | U.S | United States | 'Murica,correct,,correct
+909073,train,country,In what country is Anse?,France,France | fr | FR | République française | La France | Republic of France | French Republic | FRA | the Hexagon,correct,,correct
+4655726,train,country,In what country is Zamarramala?,Spain,Spain | España | Kingdom of Spain | ES | ESP,correct,,correct
+4293068,test,country,In what country is 1999 Guatemalan general election?,Guatemala,Guatemala | gt | 🇬🇹 | Republic of Guatemala | GUA,correct,,correct
+4645372,val,country,In what country is Japan–South Korea relations?,South Korea,Japan | State of Japan | Land of the Rising Sun | Nihon | Nippon | JP | Nippon-koku | Nihon-koku | JA | JPN | jp | JAP | Ja | Jap,incorrect,,ambiguous
+6129487,train,country,In what country is Elim?,Israel,United States of America | the United States of America | America | U.S.A. | USA | U.S. | US | the US | the USA | US of A | the United States | U. S. A. | U. S. | the States | the U.S. | 'Merica | U.S | United States | 'Murica,incorrect,,incorrect
+6404382,val,country,In what country is Greek?,Greece,United Kingdom | 🇬🇧 | UK | United Kingdom of Great Britain and Northern Ireland | U.K. | GBR | GB | U. K. | U K | G.B. | G. B. | G B | Great Britain | G.B.R. | G B R | Britain | Great Britain and Northern Ireland | Russia | Rossiya | Rossija | RU | ru | Rossijskaja Federatsija | Russian Federation | Rossiyskaya Federatsiya | Rus | RUS | RF | Canada | Dominion of Canada | British North America | CAN | CA | ca | can | Can. | Germany | FRG | BRD | Bundesrepublik Deutschland | Federal Republic of Germany | de | Deutschland | GER | BR Deutschland | DE | Ukraine | UA | UKR | ua | Ukrainia | 🇺🇦 | Ukr. | Ukraina | Albania | Republic of Albania | al | Republika e Shqipërisë | Shqipërisë | 🇦🇱 | ALB | Cyprus | cy | 🇨🇾 | Greek Cypriot State | Republic of Cyprus | Greek Administration of Southern Cyprus | Kazakhstan | Republic of Kazakhstan | kz | Qazaqstan | KAZ | 🇰🇿 | Abkhazia | Abkhasia | Abkazia | Abchasia | Abkhaziya | United States of America | the United States of America | America | U.S.A. | USA | U.S. | US | the US | the USA | US of A | the United States | U. S. A. | U. S. | the States | the U.S. | 'Merica | U.S | United States | 'Murica | Sweden | Kingdom of Sweden | SE | se | SWE | 🇸🇪 | Italy | Italia | Italian Republic | IT | 🇮🇹 | ITA | Armenia | Republic of Armenia | 🇦🇲 | ARM | AM | Australia | Commonwealth of Australia | AU | AUS | au | British Colony of Australia | 🇦🇺 | Straya | Aussieland | Greece | Hellenic Republic | Hellas | gr | el | 🇬🇷 | Greek Republic | GRE | Ellada | Greek | Turkey | Republic of Turkey | 🇹🇷 | TUR | TR | Egypt | Republic of Egypt | eg | EGY | 🇪🇬 | Arab Republic of Egypt | Arab Rep. Egypt | Rep. Egypt | Israel | State of Israel | il | 🇮🇱 | Holy Land | the Jewish state | ISR,correct,,correct
+1419351,train,country,In what country is Movraž?,Croatia,Slovenia | Slovenija | Republika Slovenija | si | 🇸🇮 | svn | slo | Republic of Slovenia | SLO,incorrect,,incorrect
+3311112,train,country,In what country is American Booksellers Association?,United States,United States of America | the United States of America | America | U.S.A. | USA | U.S. | US | the US | the USA | US of A | the United States | U. S. A. | U. S. | the States | the U.S. | 'Merica | U.S | United States | 'Murica,correct,,correct
+5912799,test,producer,Who was the producer of The Blank Generation?,Robert Mapplethorpe,Ivan Král | Ivan Kral | Amos Poe,incorrect,,incorrect
+641749,test,producer,Who was the producer of The Best Man?,Ron Howard,Spike Lee | Sheldon Lee | Shelton J. Lee | Shelton Jackson Lee | Mars Blackmon,incorrect,,incorrect
+3002426,train,producer,Who was the producer of The Internship?,Judd Apatow,Vince Vaughn | Vincent Anthony Vaughn | Vincent Vaughn,incorrect,,incorrect
+622166,train,producer,Who was the producer of Frozen River?,Kimberly Peirce,Chip Hourihan | Heather Rae,incorrect,,incorrect
+1661668,train,producer,Who was the producer of Beat It?,Michael Jackson,Michael Jackson | MJ | The King of Pop | Michael Joe Jackson | Michael Joseph Jackson | M.J. | M. J. | King of Pop | King of Music | The King,correct,,correct
+1670840,train,producer,Who was the producer of 2010: The Year We Make Contact?,Dino De Laurentiis,Peter Hyams,incorrect,,incorrect
+1126307,train,producer,Who was the producer of The Fog?,Debra Hill,Debra Hill | John Carpenter | John Howard Carpenter,correct,,correct
+1824463,train,producer,Who was the producer of Game of Thrones?,David Benioff,David Benioff | David Friedman,correct,,correct
+2438065,train,producer,Who was the producer of Swamp Water?,Hal B. Wallis,20th Century Studios | Twentieth Century-Fox Film Corporation | 20th Century Fox Pictures | Twentieth Century Fox | Twentieth (20th) Century Fox Film Corporation | 20th Century Fox | Twentieth Century Fox Film Corporation | Twentieth Century Studios,incorrect,,incorrect
+5669872,train,producer,Who was the producer of Saints and Soldiers: Airborne Creed?,Kevin King Templeton,Ryan Little,incorrect,,incorrect
+2647731,train,director,Who was the director of The Ultimate Computer?,Alan Turing,John Meredyth Lucas,incorrect,,incorrect
+772487,train,director,Who was the director of Into the Deep?,James Cameron,Ron Underwood | Ronald Brian Underwood,incorrect,,incorrect
+5924643,train,director,Who was the director of The FJ Holden?,Catherine Martin,Michael Thornhill,incorrect,,incorrect
+2925643,train,director,Who was the director of Sold?,Pablo Larraín,Hugh Ford,incorrect,,incorrect
+3170152,train,director,Who was the director of Hellboy?,Guillermo del Toro,Guillermo del Toro,correct,,correct
+2808811,val,director,Who was the director of The Rookie?,John Singleton,"Clint Eastwood | Clinton Eastwood Jr. | Clinton Eastwood | Clinton ""Clint"" Eastwood, Jr.",incorrect,,incorrect
+2262552,val,director,Who was the director of The Connection?,Albert Lamorisse,Shirley Clarke | Shirley Brimberg Clarke | Shirley Brimberg,incorrect,,incorrect
+6026087,train,director,Who was the director of Old School?,Todd Phillips,Todd Phillips,correct,,correct
+5939211,val,director,Who was the director of The Lottery?,Shirley Jackson,Garry Marshall | Garry Kent Marshall | Garry K. Marshall,incorrect,,incorrect
+688919,train,director,Who was the director of The Cool Ones?,Anthony Mann,Gene Nelson | Leander Eugene Berg,incorrect,,incorrect
+3492075,test,capital of,What is Milan the capital of?,Italy,Lombardy | Lombardia | province of Milan | Milan province | Milano province | provincia di Milano | Western Roman Empire (395-476 AD) | Roman Empire | Golden Ambrosian Republic | Repubblica Ambrosiana | Aurea Repubblica Ambrosiana,incorrect,,incorrect
+1247396,train,capital of,What is Osu the capital of?,Japan,Danish Gold Coast | Danish Guinea,incorrect,,incorrect
+2670586,train,capital of,What is Kuwait City the capital of?,Kuwait,Kuwait | 🇰🇼 | State of Kuwait | kw | KUW,correct,,correct
+4812706,train,capital of,What is Tukums the capital of?,Latvia,Tukums Municipality,incorrect,,incorrect
+2950110,train,screenwriter,Who was the screenwriter for Labor Day?,Jay Carson,Jason Reitman | Joyce Maynard | Daphne Joyce Maynard,incorrect,,incorrect
+6451484,train,screenwriter,Who was the screenwriter for Scooby-Doo?,Joe Ruby,James Gunn,incorrect,,ambiguous
+1336640,train,screenwriter,Who was the screenwriter for Spotlight?,Josh Singer,Josh Singer,correct,,correct
+404000,train,screenwriter,Who was the screenwriter for A Wedding?,John Cassavetes,Robert Altman,incorrect,,incorrect
+5762643,train,screenwriter,Who was the screenwriter for Bean?,Mel Smith,Rowan Atkinson | Mr Bean | Rowan Sebastian Atkinson,incorrect,,incorrect
+2454962,train,screenwriter,Who was the screenwriter for The Holes?,Louis Sachar,Pierre Tchernia | Pierre Tcherniakowsky | Tchernia | Pierre Tcherniakowski,incorrect,,ambiguous
+4907907,train,screenwriter,Who was the screenwriter for La terrazza?,Maurizio Ponzi,Agenore Incrocci | Age | Ettore Scola,incorrect,,incorrect
+1249019,train,screenwriter,Who was the screenwriter for The Saint?,Lesley Unger,Wesley Strick | Jonathan Hensleigh | Jonathan Blair Hensleigh,incorrect,,incorrect
+146692,train,screenwriter,Who was the screenwriter for Rope?,Patrick Hamilton,Hume Cronyn | Arthur Laurents,incorrect,,incorrect
+5913921,test,screenwriter,Who was the screenwriter for The Boys?,Eric Kripke,Mikko Niskanen | Mikko Johannes Niskanen,incorrect,,ambiguous
+205012,train,screenwriter,Who was the screenwriter for Cromwell?,David Franzoni,Ken Hughes | Kenneth Graham Hughes,incorrect,,incorrect
+1250614,train,screenwriter,Who was the screenwriter for Porky's II: The Next Day?,Bob Clark,"Bob Clark | Benjamin ""Bob"" Clark | Benjamin Robert Clark",correct,,correct
+6321183,train,composer,Who was the composer of Four?,Antonín Dvořák,"Eddie Vinson | Eddie ""Cleanhead"" Vinson",incorrect,,incorrect
+580455,train,composer,Who was the composer of Music?,Maurice Ravel,John Miles,incorrect,,incorrect
+1343087,train,composer,Who was the composer of Zwei Klavierstücke?,Sergei Rachmaninoff,Arnold Schoenberg | Arnold Schönberg | A. Schenberg | Arnold Franz Walter Schoenberg | Arnold Schonberg | Arnolʹd Shenberg | A. Shenberg | Arnold Franz Walter Schönberg,incorrect,,incorrect
+3120232,train,composer,Who was the composer of Old Shatterhand?,Klaus Doldinger,Riz Ortolani,incorrect,,incorrect
+1129739,train,composer,Who was the composer of Make a Wish?,Charles Chaplin,Hugh Martin,incorrect,,incorrect
+5279698,train,composer,Who was the composer of New York City?,Leonard Bernstein,John Lennon | John Winston Ono Lennon | John Winston Lennon | Lennon John | John Ono Lennon,incorrect,,incorrect
+787180,train,composer,Who was the composer of The Raid?,M. M. Keplar,"Mike Shinoda | Michael Kenji Shinoda | Michael ""Mike"" Shinoda",incorrect,,incorrect
+2005607,train,composer,Who was the composer of A Man and a Woman?,François Chouleau,Francis Lai | Francis Albert Lai,incorrect,,incorrect
+5436433,train,composer,Who was the composer of Petrushka chord?,Igor Stravinsky,Igor Stravinsky | Igor Fyodorovich Stravinsky | Stravinsky | Igor Strawinski | Igor Strawinsky | Igor Stravinskii | Igor Feodorovich Stravinsky | Jgor Strawinsky | Igor Strawinskij | Igor Stravinski | Igor Fedorovich Stravinsky | I. Strawinsky,correct,,correct
+2180364,test,composer,Who was the composer of Monster?,Shiro Sagisu,Lady Gaga | Stefani Joanne Angelina Germanotta | Jo Calderone | Stefani Germanotta,incorrect,,incorrect
+631204,train,composer,Who was the composer of No Way Out?,Bill Conti,Maurice Jarre | Maurice-Alexis Jarre,incorrect,,incorrect
+470734,test,composer,Who was the composer of Let It Be?,Paul McCartney,John Lennon | John Winston Ono Lennon | John Winston Lennon | Lennon John | John Ono Lennon,incorrect,,correct
+790271,train,religion,What is the religion of Muscat and Oman?,Islam,Ibadi | Ibadism | Ibāḍiyya | Ibaḍiyya,incorrect,,correct
+2696873,train,religion,What is the religion of Southwestern University?,Atheist,United Methodist Church | UMC,incorrect,,incorrect
+4688630,train,sport,What sport does Joe Bretto play?,baseball,ice hockey,incorrect,,incorrect
+2273486,val,sport,What sport does Damla Çakıroğlu play?,gymnastics,volleyball,incorrect,,incorrect
+1412286,train,sport,What sport does José Diogo Macedo Silva play?,football,association football | football | soccer,correct,,correct
+4111253,train,author,Who is the author of First Light?,Zora Neale Hurston,Geoffrey Wellum,incorrect,,incorrect
+5933992,train,author,Who is the author of The Interior?,Don DeLillo,Lisa See,incorrect,,incorrect
+5963479,train,author,Who is the author of The Wars?,Timothy Findley,Timothy Findley | Timothy Irving Frederick Findley,correct,,correct
+672890,test,author,Who is the author of Capital?,Karl Marx,John Lanchester | John Henry Lanchester,incorrect,,ambiguous
+3337761,train,author,Who is the author of Ang Singsing ng Dalagang Marmol?,Jose Rizal,"Isabelo de los Reyes | Isabelo de los Reyes Sr. | Isabelo de los Reyes, Sr. | Isabelo de los Reyes y Florentino",incorrect,,incorrect
+4810130,val,author,Who is the author of Kanojo wa Uso o Aishisugiteru?,Tomoko Ninomiya,Kotomi Aoki,incorrect,,incorrect
+401127,train,author,Who is the author of Web?,David Mitchell,John Wyndham | John Wyndham Parkes Lucas Beynon Harris | John Beynon | Lucas Parkes,incorrect,,incorrect
+2785483,train,author,Who is the author of The Monster of Florence: A True Story?,Douglas Preston,Douglas Preston | Douglas Jerome Preston | Douglas J. Preston,correct,,correct
+3044518,train,author,Who is the author of A Separate Reality?,Carlos Castaneda,Carlos Castañeda | Carlos Castaneda,correct,,correct
+6029812,train,author,Who is the author of Trauma?,Joyce Carol Oates,Patrick McGrath | Patrick J. McGrath,incorrect,,incorrect
+5561986,test,author,Who is the author of Resistance?,William Styron,Mike Costa,incorrect,,incorrect
+2142170,train,mother,Who is the mother of George VI?,Mary of Teck,"Mary of Teck | Victoria Mary Augusta Louise Olga Pauline Claudine Agnes | Queen Mary of the United Kingdom | Mary, Queen of the United Kingdom | Mary, Queen consort of the United Kingdom | Princess Victoria Mary of Teck | Princess Victoria Mary Augusta Louise Olga Pauline Claudine Agnes of Teck | Victoria Mary of Teck | Victoria Mary Augusta Louise Olga Pauline Claudine Agnes of Teck | Princess May of Teck | May of Teck | Mary, Queen of the United Kingdom, Empress of India",correct,,correct
+179126,train,mother,Who is the mother of David Rockefeller?,Abby Aldrich Rockefeller,Abigail Greene Aldrich | Abby Aldrich | Abigail Aldrich | Abby Greene Aldrich Rockefeller | Abby Aldrich Rockefeller | Mrs. J.D. Rockefeller Jr. | Abigail Greene Aldrich Rockefeller,correct,,correct
+2998350,test,capital,What is the capital of Peru?,Lima,Lima | City of the Kings,correct,,correct
+546090,train,capital,What is the capital of Pennsylvania?,Harrisburg,"Harrisburg | Capital of Pennsylvania | Harrisburg, Pennsylvania",correct,,correct
+2612485,train,capital,What is the capital of Crete?,Heraklion,Heraklion | Heraclion | Iraklion | Irakleion,correct,,correct
+5006891,test,capital,What is the capital of Saanen District?,Interlaken,Saanen,incorrect,,incorrect
+1924631,train,capital,What is the capital of Achaea Regional Unit?,Kalavryta,Patras | Patra | Patrai,incorrect,,incorrect

@@ -1,0 +1,18 @@
+{
+  "n_rows": 100,
+  "n_judged": 90,
+  "n_manual_ambiguous": 10,
+  "n_disagree": 3,
+  "noise_rate": 0.03333333333333333,
+  "confusion": {
+    "incorrect->incorrect": 57,
+    "correct->correct": 30,
+    "incorrect->ambiguous": 10,
+    "incorrect->correct": 3
+  },
+  "disagreeing_ids": [
+    "228067",
+    "470734",
+    "790271"
+  ]
+}

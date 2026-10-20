@@ -1,0 +1,24 @@
+# CPU smoke configuration: tiny random Llama + synthetic PopQA-format data.
+# Labels are PSEUDO labels (hash of the example id), because a random model answers nothing correctly.
+# Results from this config are never reported. Create the assets first:
+#   uv run python -m halprobe make-tiny artifacts/tiny
+experiment: tiny_cpu
+seed: 0
+device: cpu
+data:
+  local_path: artifacts/tiny/popqa_tiny.tsv
+  split_ratios: [0.7, 0.15, 0.15]
+model:
+  name_or_path: artifacts/tiny/model
+  dtype: float32
+prompt:
+  system: "Answer the question with a short phrase (a name, place, date, or category). Do not explain."
+  date_string: "26 Jul 2024"
+  shots:
+    - {subject: "Ada Lovelace", question: "What is Ada Lovelace's occupation?", answer: "mathematician"}
+    - {subject: "Spirited Away", question: "Who was the director of Spirited Away?", answer: "Hayao Miyazaki"}
+generation: {max_new_tokens: 8, batch_size: 16}
+labeling: {mode: pseudo}
+extraction: {batch_size: 16, consistency_threshold: 0.9}
+probe: {C_grid: [0.01, 1.0], max_iter: 2000, min_class_count: 3}
+evaluation: {n_bootstrap: 50, ece_bins: 10, min_per_class_relation: 2}
